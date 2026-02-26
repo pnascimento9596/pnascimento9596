@@ -16,4 +16,4 @@ Senior Data Analyst specializing in healthcare supply chain optimization. I've i
 ## Healthcare Domains
 Orthopedic Implants (Hip, Knee, Spine, Trauma) · Biomedical Equipment · Clinical Engineering · Biologics & Wound Care · Vendor Negotiation · GPO Contract Analysis
 
-📫 pnascimento959@gmail.com · [LinkedIn](https://linkedin.com/in/paulo-nascimento9596)
+📫 paulo@pnascimento.dev· [LinkedIn](https://linkedin.com/in/paulo-nascimento9596)
