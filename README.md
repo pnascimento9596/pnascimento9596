@@ -1,6 +1,6 @@
 # Paulo Nascimento
 
-**Healthcare Procurement Analytics | AI Research | Data Science**
+**Healthcare Procurement Analytics | Data Science** | AI Research 
 
 Senior Data Analyst specializing in healthcare supply chain optimization. I've identified over **$26M in cost savings** across **$296M in analyzed spend** for 16 hospital systems — spanning orthopedic implants, biomedical equipment, biologics, and clinical engineering.
 
