@@ -29,7 +29,7 @@ pip install -e ".[dev]" && ceintel rfp compare --demo
 
 | Project | What It Does | Stack |
 |---|---|---|
-| [**CEIntel**](https://github.com/pnascimento9596/ceintel) | RFP bid normalization, hidden cost detection, vendor scoring for clinical engineering contracts | Python, Pydantic v2, Click, openpyxl |
+| [**CEIntel**](https://github.com/pnascimento9596/ceintel)· [Live Demo](https://ceintel-rfp.streamlit.app) | RFP bid normalization, hidden cost detection, vendor scoring for clinical engineering contracts | Python, Pydantic v2, Click, Streamlit |
 | [**ortho-implant-benchmarking**](https://github.com/pnascimento9596/ortho-implant-benchmarking) | Orthopedic implant spend analysis — cross-referencing, catalog normalization, GPO benchmark comparison | Python, pandas |
 | [**healthcare-spend-dashboard**](https://github.com/pnascimento9596/healthcare-spend-dashboard) | Interactive procurement spend visualization across implant categories, vendors, and surgical volume | Python, Streamlit |
 | [**ghost-asset-detector**](https://github.com/pnascimento9596/ghost-asset-detector) | Identifies decommissioned/non-existent equipment in clinical engineering inventories | Python, pandas |
@@ -60,4 +60,5 @@ Independent research on structured adversarial dialogue between LLM instances to
 BS in Translational Biomedical Sciences, Rowan University
 Senior Data Analyst, Quality First Solutions — Cherry Hill, NJ
 
-[LinkedIn](https://linkedin.com/in/your-profile)
+[LinkedIn](https://www.linkedin.com/in/paulo-nascimento9596)
+
