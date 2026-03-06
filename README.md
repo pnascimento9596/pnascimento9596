@@ -12,7 +12,7 @@ I build tools that encode real procurement domain expertise into software.
 
 ### CEIntel — Clinical Engineering Intelligence
 
-A Python-based RFP evaluation engine for healthcare equipment service procurement ($15–25M contracts). Normalizes structurally incomparable vendor bids, detects hidden costs using 8 pattern-based rules, and scores vendors on weighted clinical engineering criteria.
+A Python-based RFP evaluation engine for healthcare equipment service procurement — built for $10M–$100M+ service contracts and inventories spanning 200,000+ devices. Normalizes structurally incomparable vendor bids, detects hidden costs using 8 pattern-based rules, and scores vendors on weighted clinical engineering criteria.
 
 Now includes Monte Carlo simulation, 5-year TCO projection, modality-level bid analysis, and a web-based analysis platform with 5 specialized workflows.
 
