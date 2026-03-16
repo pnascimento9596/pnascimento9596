@@ -2,7 +2,7 @@
 
 **Healthcare Procurement Analytics · Clinical Engineering Intelligence · AI Research**
 
-Senior Data Analyst specializing in healthcare supply chain optimization. I've identified **$26M+ in cost savings** across **$296M+ in analyzed spend** for 16 hospital systems — spanning orthopedic implants, biomedical equipment services, biologics, radiology, and clinical engineering contracts.
+Director of Analytics specializing in healthcare supply chain optimization. I've identified **$26M+ in cost savings** across **$296M+ in analyzed spend** for 16 hospital systems — spanning orthopedic implants, biomedical equipment services, biologics, radiology, and clinical engineering contracts.
 
 I build tools that encode real procurement domain expertise into software.
 
