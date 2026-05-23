@@ -1,9 +1,6 @@
 # Paulo Nascimento
 
-Healthcare procurement and clinical engineering analytics. I build production tools that turn opaque vendor pricing, fragmented service contracts, and inconsistent equipment data into auditable decisions.
-
-**$26M+ in identified savings** across **$296M+ in analyzed spend** — spanning orthopedic implants, biomedical equipment services, biologics, radiology, and clinical engineering contracts.
-
+Healthcare procurement and clinical engineering - director of analytics.
 ---
 
 ## Active Projects
