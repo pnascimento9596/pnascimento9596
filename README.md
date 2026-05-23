@@ -1,7 +1,6 @@
 # Paulo Nascimento
 
 Healthcare procurement and clinical engineering - director of analytics.
----
 
 ## Active Projects
 
