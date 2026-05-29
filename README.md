@@ -8,9 +8,9 @@ Healthcare procurement and clinical engineering consulting - Director of Analyti
 
 *Private repository*
 
-SaaS platform for hospital CFOs and procurement teams evaluating medical equipment service vendor bids. Normalizes structurally incomparable RFP responses, surfaces hidden cost exposure, and turns multi-million-dollar service procurements into auditable decisions.
+Clinical Engineering Intelligence platform for hospital CFOs and procurement teams evaluating medical equipment service vendor bids and inventory health, capital planning, normalizes structurally incomparable RFP responses, surfaces hidden cost exposure, and many more features.
 
-Four modules: RFP Analysis, Inventory Intelligence, Equipment Intelligence, Financial Intelligence. Built on FastAPI, Next.js 16, PostgreSQL — deployed on Render and Vercel.
+Four modules: RFP Analysis, Inventory Intelligence, Equipment Intelligence, Financial Intelligence.
 
 📩 [Request a demo](mailto:paulo@pnascimento.dev)
 
@@ -18,7 +18,7 @@ Four modules: RFP Analysis, Inventory Intelligence, Equipment Intelligence, Fina
 
 *Private repository*
 
-Client-facing portal for accounts payable audit workflows used by hospital and clinic teams. Handles audit-period setup, Excel imports, credit and RA3 review workflows, W9 tracking, document storage, and email notifications. Built on Next.js 14, Drizzle ORM, Neon Postgres, Cloudflare R2.
+Client-facing portal for accounts payable audit workflows used by hospital and clinic teams. Handles audit-period setup, Excel imports, credit and RA3 review workflows, W9 tracking, document storage, and email notifications. 
 
 ---
 
