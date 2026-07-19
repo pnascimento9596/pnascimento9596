@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">AP Audit Portal workflow</title>
+  <desc id="desc">Credit, invoice-validation, W-9, and remittance files move through governed imports, client and operator queues, review, matching, and collection accounting to recovery evidence and explicit follow-up work.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#211708"/>
+      <stop offset="0.55" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#25120b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b45309"/>
+      <stop offset="1" stop-color="#ea580c"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#78350f" stroke-opacity="0.35"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.30"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="620" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="620" rx="30" fill="url(#grid)"/>
+  <circle cx="1100" cy="76" r="146" fill="#fbbf24" fill-opacity="0.07"/>
+  <circle cx="1100" cy="76" r="94" fill="#fb923c" fill-opacity="0.06"/>
+
+  <g transform="translate(54 48)">
+    <rect width="58" height="58" rx="17" fill="url(#accent)"/>
+    <path d="M18 17h22v27H18zM23 24h12M23 30h12M23 36h7M24 13h10v7H24z" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="78" y="28" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" letter-spacing="-0.5">AP Audit Portal</text>
+    <text x="78" y="54" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="17">Healthcare accounts payable audit operations</text>
+  </g>
+  <g transform="translate(846 56)">
+    <rect width="292" height="42" rx="21" fill="#2a1c10" stroke="#76521f"/>
+    <circle cx="22" cy="21" r="6" fill="#fbbf24"/>
+    <text x="40" y="27" fill="#fcd34d" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">PRIVATE SOURCE · PRODUCTION</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(54 154)">
+      <rect width="302" height="304" rx="24" fill="#111c2f" stroke="#62441e"/>
+      <text x="28" y="43" fill="#fcd34d" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="1.5">AUDIT INPUTS</text>
+      <g transform="translate(28 72)">
+        <rect width="246" height="52" rx="14" fill="#2a2115"/>
+        <path d="M18 17h20v19H18zM23 22h10M23 27h10M23 32h6" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+        <text x="52" y="32" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">Credits and invoices</text>
+      </g>
+      <g transform="translate(28 137)">
+        <rect width="246" height="52" rx="14" fill="#2a2115"/>
+        <path d="M18 16h20v22H18zM23 22h10M23 28h8M23 34h11" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+        <text x="52" y="32" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">W-9 documents</text>
+      </g>
+      <g transform="translate(28 202)">
+        <rect width="246" height="70" rx="14" fill="#2a2115"/>
+        <circle cx="28" cy="25" r="10" fill="none" stroke="#fbbf24" stroke-width="2"/>
+        <path d="M23 25h10M28 20v10" stroke="#fbbf24" stroke-width="2" stroke-linecap="round"/>
+        <text x="52" y="29" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">Remittances</text>
+        <text x="52" y="50" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="14">Supporting evidence</text>
+      </g>
+    </g>
+
+    <g transform="translate(449 154)">
+      <rect width="302" height="304" rx="24" fill="#b45309"/>
+      <text x="28" y="43" fill="#fde68a" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="1.5">CONTROLLED WORKFLOW</text>
+      <g transform="translate(28 72)">
+        <circle cx="18" cy="18" r="18" fill="#ffffff" fill-opacity="0.15"/>
+        <path d="M11 18l5 5 10-11" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="52" y="16" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Preflight and provenance</text>
+        <text x="52" y="39" fill="#fef3c7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="14">Mappings, anomalies, safe write</text>
+      </g>
+      <path d="M46 118v24" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 5"/>
+      <g transform="translate(28 146)">
+        <circle cx="18" cy="18" r="18" fill="#ffffff" fill-opacity="0.15"/>
+        <path d="M10 22c2-5 14-5 16 0M14 13a4 4 0 1 0 8 0" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+        <text x="52" y="16" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Client and operator queues</text>
+        <text x="52" y="39" fill="#fef3c7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="14">Review, remediation, follow-up</text>
+      </g>
+      <path d="M46 192v24" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4 5"/>
+      <g transform="translate(28 220)">
+        <circle cx="18" cy="18" r="18" fill="#ffffff" fill-opacity="0.15"/>
+        <path d="M9 18h18M18 9v18" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+        <text x="52" y="16" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Match and account</text>
+        <text x="52" y="39" fill="#fef3c7" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="14">Remittances and ledger</text>
+      </g>
+    </g>
+
+    <g transform="translate(844 154)">
+      <rect width="302" height="304" rx="24" fill="#111c2f" stroke="#7c3d1f"/>
+      <text x="28" y="43" fill="#fdba74" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="1.5">RECOVERY RECORD</text>
+      <g transform="translate(28 72)">
+        <rect width="246" height="58" rx="14" fill="#2b1d19"/>
+        <path d="M18 18h20v22H18zM23 24h10M23 30h10M23 36h7" fill="none" stroke="#fb923c" stroke-width="2" stroke-linecap="round"/>
+        <text x="52" y="26" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">Traceable review history</text>
+        <text x="52" y="45" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13">Notes, actions, documents</text>
+      </g>
+      <g transform="translate(28 144)">
+        <rect width="246" height="58" rx="14" fill="#2b1d19"/>
+        <path d="M18 39V22M25 39V29M32 39V18M39 39V25" stroke="#fb923c" stroke-width="3" stroke-linecap="round"/>
+        <text x="52" y="26" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">Collections and aging</text>
+        <text x="52" y="45" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13">Reversals and attribution</text>
+      </g>
+      <g transform="translate(28 216)">
+        <rect width="246" height="58" rx="14" fill="#2b1d19"/>
+        <circle cx="28" cy="29" r="11" fill="none" stroke="#fb923c" stroke-width="2"/>
+        <path d="M23 29l4 4 7-8" fill="none" stroke="#fb923c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="52" y="26" fill="#f1f5f9" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="650">CFO recovery evidence</text>
+        <text x="52" y="45" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13">Reconciled reports and exports</text>
+      </g>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#fbbf24" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M375 306h48"/>
+    <path d="M413 296l10 10-10 10"/>
+    <path d="M770 306h48"/>
+    <path d="M808 296l10 10-10 10"/>
+  </g>
+
+  <g transform="translate(54 500)">
+    <rect width="1092" height="72" rx="20" fill="#111c2f" fill-opacity="0.94" stroke="#62441e"/>
+    <text x="26" y="29" fill="#fcd34d" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="12" font-weight="800" letter-spacing="1.2">FOUNDATION</text>
+    <text x="26" y="53" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">Transactional writes</text>
+    <circle cx="204" cy="48" r="3" fill="#fbbf24"/>
+    <text x="222" y="53" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">Tenant isolation</text>
+    <circle cx="370" cy="48" r="3" fill="#fbbf24"/>
+    <text x="388" y="53" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">Import provenance</text>
+    <circle cx="564" cy="48" r="3" fill="#fbbf24"/>
+    <text x="582" y="53" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">Signed documents</text>
+    <circle cx="744" cy="48" r="3" fill="#fbbf24"/>
+    <text x="762" y="53" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="15" font-weight="650">Explicit unmatched work</text>
+  </g>
+</svg>

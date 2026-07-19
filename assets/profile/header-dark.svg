@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">Paulo Nascimento profile header</title>
+  <desc id="desc">Director of Analytics working across healthcare procurement, clinical engineering, product engineering, and developer tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.55" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#16112c"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.16"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0.16"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#334155" stroke-opacity="0.42" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="28" fill="url(#grid)"/>
+  <path d="M0 262C180 210 292 300 466 252C628 206 710 98 890 116C1038 130 1120 214 1280 170V320H0Z" fill="#111c2f" fill-opacity="0.66"/>
+  <path d="M610 160C715 160 742 82 842 82C940 82 956 238 1056 238C1130 238 1170 162 1248 162" fill="none" stroke="url(#line)" stroke-width="3" stroke-linecap="round"/>
+
+  <g transform="translate(72 68)">
+    <rect x="0" y="0" width="46" height="5" rx="2.5" fill="#2dd4bf"/>
+    <text x="0" y="58" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">Paulo Nascimento</text>
+    <text x="0" y="96" fill="#cbd5e1" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="20" font-weight="600">Director of Analytics</text>
+    <text x="0" y="135" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="17">Healthcare procurement · Clinical engineering · Product engineering</text>
+    <g transform="translate(0 166)">
+      <rect width="126" height="34" rx="17" fill="#123d3b"/>
+      <text x="63" y="22" text-anchor="middle" fill="#5eead4" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650">BiotraxIQ</text>
+      <rect x="136" width="124" height="34" rx="17" fill="#422b12"/>
+      <text x="198" y="22" text-anchor="middle" fill="#fcd34d" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650">AP Audit</text>
+      <rect x="270" width="112" height="34" rx="17" fill="#172c58"/>
+      <text x="326" y="22" text-anchor="middle" fill="#93c5fd" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650">WCDraft</text>
+      <rect x="392" width="166" height="34" rx="17" fill="#30205d"/>
+      <text x="475" y="22" text-anchor="middle" fill="#c4b5fd" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650">Codex Buddy</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(720 48)">
+      <rect width="196" height="92" rx="18" fill="#111c2f" stroke="#1f766e"/>
+      <circle cx="30" cy="30" r="14" fill="#0f766e"/>
+      <path d="M23 31h14M30 24v14" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      <text x="56" y="34" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">BiotraxIQ</text>
+      <text x="24" y="68" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13">Clinical engineering</text>
+    </g>
+    <g transform="translate(940 48)">
+      <rect width="196" height="92" rx="18" fill="#111c2f" stroke="#76521f"/>
+      <circle cx="30" cy="30" r="14" fill="#b45309"/>
+      <path d="M24 24h12v13H24zM27 21h6" fill="none" stroke="#ffffff" stroke-width="2" stroke-linejoin="round"/>
+      <text x="56" y="34" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">AP Audit</text>
+      <text x="24" y="68" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13">Audit operations</text>
+    </g>
+    <g transform="translate(720 180)">
+      <rect width="196" height="92" rx="18" fill="#111c2f" stroke="#315a96"/>
+      <circle cx="30" cy="30" r="14" fill="#1d4ed8"/>
+      <path d="M24 23h12v5H24zM24 32h12v5H24z" fill="none" stroke="#ffffff" stroke-width="2"/>
+      <text x="56" y="34" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">WCDraft</text>
+      <text x="24" y="68" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13">Draft and simulation</text>
+    </g>
+    <g transform="translate(940 180)">
+      <rect width="196" height="92" rx="18" fill="#111c2f" stroke="#5b3e96"/>
+      <circle cx="30" cy="30" r="14" fill="#6d28d9"/>
+      <path d="M23 29c0-5 3-8 7-8s7 3 7 8v6H23zM26 35v3M34 35v3" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+      <text x="56" y="34" fill="#f8fafc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700">Codex Buddy</text>
+      <text x="24" y="68" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="13">Independent review</text>
+    </g>
+  </g>
+</svg>
