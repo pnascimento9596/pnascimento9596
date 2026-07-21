@@ -52,15 +52,17 @@ The project combines a deterministic TypeScript game engine, a Python data and r
 
 ### Codex Buddy Reviewer
 
-*Private release candidate · Public installation not yet available*
+*Public and open source · Apache 2.0 · Release candidate*
 
-Codex Buddy Reviewer adds an independent post-turn code review to OpenAI Codex. It captures stable Git trees before and after a task without changing the index or refs, computes the changes observed during that window, and sends a bounded allowlisted patch to a separately configured reviewer.
+Codex Buddy Reviewer is an independent post-turn code reviewer and persistent companion for OpenAI Codex. It keeps Codex building while one or two separately configured reviewer connections inspect privacy-filtered repository changes in the background.
 
-Local controls block common credential paths, limit evidence size and lifetime, validate the returned findings, and record deterministic receipts. If the evidence is incomplete or the provider fails, the review stays separate from the worker result and reports what happened instead of filling in a conclusion.
+Buddy captures stable Git checkpoints, applies explicit privacy and authorization gates, validates and attributes structured findings, preserves useful disagreement, and reports partial failures without replacing the worker's result. It reviews and reports, but never edits, applies, or merges implementation changes.
 
-Five original pet packages add companion state, personality, mood, and completion events. The native pet remains owned and rendered by Codex. Review authorization and technical findings do not depend on the cosmetic layer.
+The public release candidate supports Claude Code, Grok CLI, Ollama, and OpenCode reviewer adapters, plus five installable V2 pet companions. The native pet remains owned and rendered by Codex; Buddy owns review orchestration, progress events, receipts, and transcript output.
 
-`JavaScript` · `Codex plugins` · `Git snapshots` · `Structured review` · `Privacy controls` · `Pet packages`
+`JavaScript` · `Codex plugins` · `Git checkpoints` · `Concurrent review` · `Privacy controls` · `Structured validation`
+
+[Source, setup, and documentation](https://github.com/pnascimento9596/codex-buddy-reviewer)
 
 ## Other current work
 
