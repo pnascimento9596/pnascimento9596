@@ -1,53 +1,88 @@
 # Paulo Nascimento
 
-Director of Analytics focused on healthcare procurement, clinical engineering, and operational finance. I design and build auditable data products, from source ingestion and typed models through APIs, user workflows, testing, and production operations.
+Director of Analytics working in healthcare procurement, clinical engineering, and operational finance. My work spans domain analysis and product engineering, including data models, import pipelines, APIs, frontend workflows, testing, deployment, and day-to-day operations. Current projects also include a football drafting game and a privacy-focused code reviewer for Codex.
 
-[LinkedIn](https://www.linkedin.com/in/paulo-nascimento9596/) | [Email](mailto:paulo@pnascimento.dev) | New Jersey, USA
+[LinkedIn](https://www.linkedin.com/in/paulo-nascimento9596/) · [Email](mailto:paulo@pnascimento.dev) · New Jersey, USA
 
-## Areas of focus
+## Current projects
 
-- Healthcare procurement, contract, and spend analytics
-- Clinical engineering RFP, equipment inventory, and lifecycle analysis
-- Deterministic data pipelines and reproducible financial models
-- Applied AI systems with explicit evidence, provenance, and failure states
-- Full-stack product engineering with Python, TypeScript, SQL, React, and PostgreSQL
+### BiotraxIQ
 
-## Selected work
+*Production deployment · Private source · Demo by request*
 
-### [BiotraxIQ](https://github.com/pnascimento9596/biotraxiq-overview)
+BiotraxIQ is a clinical engineering intelligence platform for hospital finance, procurement, and HTM teams. It brings RFP bids, medical equipment inventories, CMMS work orders, AP and PO spend, and service contracts into one governed workspace.
 
-Clinical engineering intelligence platform for hospital finance, procurement, and HTM teams. It supports bid normalization, vendor evaluation, TCO modeling, equipment and inventory analysis, spend analytics, contract review, reporting, and evidence-grounded AI workflows.
+The RFP workflow normalizes different pricing models, finds hidden cost and scope risk, applies evidence-aware scoring, and models multi-year TCO. The inventory and equipment workflows cover device classification, EM risk, ghost assets, work-order matching, reliability, lifecycle, and capital planning. Financial and contract workflows connect spend, coverage, terms, clauses, and source-grounded redlines to reporting.
 
-Primary stack: Python, FastAPI, PostgreSQL, Next.js, and TypeScript.
+Ask BiotraxIQ provides workspace-scoped chat and MCP access across inventory, equipment, spend, contracts, and TCO. Results retain provenance, and missing evidence remains explicit instead of turning into a zero or a guessed answer.
 
-### [AP Audit Portal](https://github.com/pnascimento9596/ap-audit-portal-overview)
+`Python` · `FastAPI` · `PostgreSQL` · `Next.js` · `TypeScript` · `MCP` · `Vercel` · `Render`
 
-Multi-tenant accounts payable audit platform for credit review, invoice validation, W-9 remediation, remittance matching, collections, document workflows, and audit reporting.
+[Product overview](https://github.com/pnascimento9596/biotraxiq-overview) · [Open BiotraxIQ](https://biotraxiq.vercel.app/) · [Request a demo](mailto:paulo@pnascimento.dev)
 
-Primary stack: Next.js, React, TypeScript, Drizzle, Neon PostgreSQL, Cloudflare R2, and Vercel.
+### AP Audit Portal
 
-### [WCDraft](https://www.wcdraft.com)
+*Production deployment · Private source · Public product overview*
 
-Football squad drafting and tournament simulation game with a deterministic TypeScript engine, server-replayed ranked submissions, versioned data, daily play, leaderboards, and friend challenges.
+AP Audit Portal is a multi-tenant accounts payable audit platform for healthcare organizations. It supports separate operator and client workflows for audit periods, credits, invoice validation, W-9 remediation, remittances, collections, and supporting documents.
 
-Primary stack: Next.js, React, TypeScript, Python, PostgreSQL, Playwright, and Vercel.
+Spreadsheet imports use preflight checks, reusable mappings, anomaly handling, provenance records, idempotency controls, and transactional reconciliation. Role-specific task queues are derived from the underlying audit records. Remittance matching keeps exact matches, suggestions, ambiguous rows, and unmatched work separate so an operator can see what still needs judgment.
 
-### [Codex Buddy Reviewer](https://github.com/pnascimento9596/codex-buddy-reviewer)
+The portal also covers collection reversals and source attribution, recovery dashboards, CFO evidence exports, signed document delivery, tenant isolation, structured audit history, and guarded release and restore workflows.
 
-Open-source Codex plugin for independent post-turn code review. It captures bounded Git evidence, applies privacy controls, delegates to a separately configured reviewer, validates findings, and records deterministic receipts.
+`Next.js` · `React` · `TypeScript` · `Drizzle` · `Neon PostgreSQL` · `Cloudflare R2` · `Vercel`
 
-Primary stack: JavaScript, Git, and Codex plugins.
+[Product overview](https://github.com/pnascimento9596/ap-audit-portal-overview)
 
-## Additional open-source work
+### WCDraft
 
-- [cron-status-alert](https://github.com/pnascimento9596/cron-status-alert): delivery monitoring for Hermes Agent scheduled jobs
-- [equipcost-forecast](https://github.com/pnascimento9596/equipcost-forecast): biomedical equipment lifecycle forecasting and repair-versus-replace analysis
-- [medspend-normalize](https://github.com/pnascimento9596/medspend-normalize): healthcare spend normalization, vendor resolution, and anomaly detection
-- [ghost-asset-detector](https://github.com/pnascimento9596/ghost-asset-detector): explainable detection of healthcare equipment inventory discrepancies
+*Live product · Source private during release preparation · Public source release planned*
 
-## Engineering principles
+WCDraft is a football drafting game built around tournament history from 1930 through 2026. Players assemble an all-time squad, choose a manager and formation, then run the team through a seeded group and knockout simulation.
 
-- Keep source identity, scope, and transformations traceable.
-- Represent missing or contradictory evidence explicitly.
-- Make financial calculations reproducible and testable.
-- Use typed contracts, transactions, idempotency, and reconciliation at system boundaries.
+The game includes Daily, Classic, Open Draft, Memory, and Blind Open modes. It also has accounts, saved runs, casual and ranked leaderboards, same-seed friend challenges, and versioned share links. Ranked submissions are replayed on the server before they are accepted.
+
+The project combines a deterministic TypeScript game engine, a Python data and ratings pipeline, versioned runtime bundles, licensed public data, authentication, Postgres, social previews, and installable PWA delivery.
+
+`Next.js` · `React` · `TypeScript` · `Python` · `PostgreSQL` · `Vercel` · `Playwright`
+
+[Play WCDraft](https://www.wcdraft.com) · [How to play](https://www.wcdraft.com/how-to-play)
+
+<sub>Independent fan project. Not affiliated with or endorsed by a football governing body.</sub>
+
+### Codex Buddy Reviewer
+
+*Private release candidate · Public installation not yet available*
+
+Codex Buddy Reviewer adds an independent post-turn code review to OpenAI Codex. It captures stable Git trees before and after a task without changing the index or refs, computes the changes observed during that window, and sends a bounded allowlisted patch to a separately configured reviewer.
+
+Local controls block common credential paths, limit evidence size and lifetime, validate the returned findings, and record deterministic receipts. If the evidence is incomplete or the provider fails, the review stays separate from the worker result and reports what happened instead of filling in a conclusion.
+
+Five original pet packages add companion state, personality, mood, and completion events. The native pet remains owned and rendered by Codex. Review authorization and technical findings do not depend on the cosmetic layer.
+
+`JavaScript` · `Codex plugins` · `Git snapshots` · `Structured review` · `Privacy controls` · `Pet packages`
+
+## Other current work
+
+### Facilities Command Center
+
+*Production system · Private source*
+
+A healthcare facilities operations platform for project portfolios, contract renewals, follow-up risk, staleness rules, saved views, audited project updates, spreadsheet round-trips, notifications, and secure attachments.
+
+`Next.js` · `React` · `TypeScript` · `Drizzle` · `Neon PostgreSQL` · `Vercel`
+
+## Open source and public work
+
+- [cron-status-alert](https://github.com/pnascimento9596/cron-status-alert) is a Hermes Agent plugin that sends a Discord message when a cron delivery fails or runs overdue.
+- [equipcost-forecast](https://github.com/pnascimento9596/equipcost-forecast) covers biomedical equipment lifecycle forecasting, failure curves, NPV and TCO repair-versus-replace analysis, and fleet replacement planning.
+- [medspend-normalize](https://github.com/pnascimento9596/medspend-normalize) is a multi-ERP healthcare spend pipeline with vendor resolution, anomaly detection, facility comparison, lineage, an API, and a CLI.
+- [ghost-asset-detector](https://github.com/pnascimento9596/ghost-asset-detector) uses seven explicit inventory signals to flag likely ghost assets and explain the classification.
+- [ortho-implant-benchmarking](https://github.com/pnascimento9596/ortho-implant-benchmarking) cross-references purchase and catalog data, ranks price opportunities, and produces reports and visualizations.
+- [healthcare-spend-dashboard](https://github.com/pnascimento9596/healthcare-spend-dashboard) is a Streamlit and Plotly exploration of synthetic procurement data across categories, vendors, facilities, contract mix, and PPI spend.
+
+Recent upstream work includes statistical comparison and evaluator reliability features in [EvalTrust](https://github.com/k-dickinson/evaltrust), plus asynchronous task cleanup in [RepoPrompt Community Edition](https://github.com/repoprompt/repoprompt-ce).
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/paulo-nascimento9596/) · [paulo@pnascimento.dev](mailto:paulo@pnascimento.dev)
