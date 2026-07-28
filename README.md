@@ -83,7 +83,7 @@ A healthcare facilities operations platform for project portfolios, contract ren
 - [ortho-implant-benchmarking](https://github.com/pnascimento9596/ortho-implant-benchmarking) cross-references purchase and catalog data, ranks price opportunities, and produces reports and visualizations.
 - [healthcare-spend-dashboard](https://github.com/pnascimento9596/healthcare-spend-dashboard) is a Streamlit and Plotly exploration of synthetic procurement data across categories, vendors, facilities, contract mix, and PPI spend.
 
-Recent upstream work includes statistical comparison and evaluator reliability features in [EvalTrust](https://github.com/k-dickinson/evaltrust), plus asynchronous task cleanup in [RepoPrompt Community Edition](https://github.com/repoprompt/repoprompt-ce).
+Recent upstream work includes statistical comparison and evaluator reliability features in [EvalTrust](https://github.com/k-dickinson/evaltrust), plus asynchronous task cleanup in [RepoPrompt Community Edition](https://github.com/repoprompt/repoprompt-ce). Also contributions to Hermes Agent by Nous Research (https://github.com/NousResearch/hermes-agent).
 
 ## Contact
 
