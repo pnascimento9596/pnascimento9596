@@ -1,6 +1,6 @@
 # Paulo Nascimento
 
-Director of Analytics working in healthcare procurement, clinical engineering, and operational finance. My work spans domain analysis and product engineering, including data models, import pipelines, APIs, frontend workflows, testing, deployment, and day-to-day operations. Current projects also include a football drafting game and a privacy-focused code reviewer for Codex.
+Director of Analytics working in healthcare procurement, clinical engineering, and operational finance. My work spans domain analysis and product engineering, including data models, import pipelines, APIs, frontend workflows, testing, deployment, and day-to-day operations. Main current project: BiotraxIQ, a clinical engineering intelligence platform for health systems.
 
 [LinkedIn](https://www.linkedin.com/in/paulo-nascimento9596/) · [Email](mailto:paulo@pnascimento.dev) · New Jersey, USA
 
